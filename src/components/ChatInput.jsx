@@ -66,7 +66,7 @@ export default function ChatInput({ chatMessages, setChatMessages }) {
           disabled={isLoading}
           onChange={handleChange}
           onKeyPress={handleKeyPress}
-          className="flex-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+          className="flex-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#198754]"
         />
         <button 
           onClick={handleSendMessage}
