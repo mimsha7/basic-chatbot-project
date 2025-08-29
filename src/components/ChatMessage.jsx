@@ -4,7 +4,7 @@ export default function ChatMessage({ message, sender }) {
       sender === 'user' ? 'flex-row-reverse' : 'flex-row'
     }`}>
       <img
-        src={`/images/${sender}.png`}
+        src={`${import.meta.env.BASE_URL}images/${sender}.png`}
         alt={sender}
         className="w-8 h-8 rounded-full"
       />
