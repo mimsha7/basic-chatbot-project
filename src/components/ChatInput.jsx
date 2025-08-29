@@ -74,8 +74,8 @@ export default function ChatInput({ chatMessages, setChatMessages }) {
           className={`px-4 py-2 text-white rounded-lg transition-colors 
           ${
             isLoading 
-            ? 'bg-blue-300 cursor-not-allowed' 
-            : 'bg-blue-500 hover:bg-blue-600'
+            ? 'bg-[#0e5132] cursor-not-allowed' 
+            : 'bg-[#198754] hover:bg-[#2ac67d]'
           }`
          }
         >
